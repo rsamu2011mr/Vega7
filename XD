@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vega7 Skating School</title>
+
+<!-- LINK TO EXTERNAL CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header>
+    <img src="https://lh3.googleusercontent.com/d/1LDHRoB3zOTwWQTuqoyVDwTootxEKcdi2" alt="Vega7 Skating School Logo" class="main-logo">
+    <p class="subtitle">Inline, Roller & Ice Skating Lessons for All Levels</p>
+
+    <div class="action-container">
+      <a href="https://chat.whatsapp.com/GBRNCzvUkMn6ND1M7Bsk8k?mode=gi_t" class="btn btn-whatsapp">
+        📱 Join Community
+      </a>
+      <a href="#services" class="btn btn-service">
+        🛼 Skating Lessons
+      </a>
+    </div>
+  </header>
+
+  <section class="services-section" id="services">
+    <h2>Our Skating Programs</h2>
+    <div class="service-grid">
+
+      <div class="card">
+        <h3>🏒 Hockey Skating</h3>
+        <p>Develop power, speed, and agility specifically for ice or inline hockey.</p>
+        <a href="mailto:vvvvvvvega@gmail.com?subject=Inquiry: Hockey Skating Lessons&body=Hi Vega7 Team, I am interested in hockey skating lessons..." class="card-btn">Inquire about Hockey →</a>
+      </div>
+
+      <div class="card">
+        <h3>🛣️ Street Skating</hh3>
+        <p>Learn to navigate urban environments safely and confidently on your skates.</p>
+        <a href="mailto:vvvvvvvega@gmail.com?subject=Inquiry: Street Skating Lessons&body=Hi Vega7 Team, I'd like to learn street skating..." class="card-btn">Inquire about Street →</a>
+      </div>
+
+      <div class="card">
+        <h3>🛼 Quad Skating</h3>
+        <p>Master the classic style, from basic balance to dance moves and roller derby skills.</p>
+        <a href="mailto:vvvvvvvega@gmail.com?subject=Inquiry: Quad Skating Lessons&body=Hi Vega7 Team, I am looking for quad skating classes..." class="card-btn">Inquire about Quad →</a>
+      </div>
+
+      <div class="card">
+        <h3>⛸️ Figure Skating</h3>
+        <p>Focus on grace, technique, jumps, and spins for artistic skating on ice or artistic rollers.</p>
+        <a href="mailto:vvvvvvvega@gmail.com?subject=Inquiry: Figure Skating Lessons&body=Hi Vega7 Team, I am interested in figure skating lessons..." class="card-btn">Inquire about Figure →</a>
+      </div>
+
+      <div class="card">
+        <h3>🧱 Aggressive Skating</h3>
+        <p>Learn grinds, airs, and tricks in the skatepark with proper technique and safety.</p>
+        <a href="mailto:vvvvvvvega@gmail.com?subject=Inquiry: Aggressive Skating Lessons&body=Hi Vega7 Team, I want to learn aggressive skating..." class="card-btn">Inquire about Aggressive →</a>
+      </div>
+
+      <div class="card">
+        <h3>🌲 RollerHiking</h3>
+        <p>Combine skating with outdoor adventure on trails and long-distance paths.</p>
+        <a href="mailto:vvvvvvvega@gmail.com?subject=Inquiry: RollerHiking&body=Hi Vega7 Team, Please tell me more about RollerHiking..." class="card-btn">Inquire about RollerHiking →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <h2>Ready to Roll?</h2>
+    <p>Sign up for classes and complete your waiver to get started!</p>
+    
+    <div style="margin: 30px 0;">
+      <a href="https://docs.google.com/forms/d/e/YOUR_WAIVER_FORM_ID/viewform" class="btn btn-service">
+        📝 Fill Out Waiver
+      </a>
+    </div>
+
+    <div class="privacy-box">
+      <h4>🔒 Privacy & Safety Policy</h4>
+      <p>
+        Vega7 Skating School is committed to your safety and privacy. Personal information collected via forms and communication is used solely for class registration, scheduling, and emergency contact purposes. We do not share your data with third parties. By participating, you acknowledge the inherent risks of skating and agree to our safety guidelines.
+      </p>
+    </div>
+
+    <div class="footer-text">
+      <p>Vega7 Skating School © 2026</p>
+      <p>Keep Rolling, Keep Growing!</p>
+    </div>
+  </footer>
+
+</body>
+</html>
