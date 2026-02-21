@@ -1,50 +1,45 @@
 html { scroll-behavior: smooth; }
 
-/* --- VEGA7 PALETTE --- */
+/* --- VEGA7 NEON PALETTE --- */
 :root {
-  --bg-page: #ffffff;
-  --bg-card: #f0f8ff;
-  --text-dark: #000000;
-  --text-muted: #333333;
-  --accent-blue: #00bfff;
-  --btn-primary: #000000;
-  --highlight: #e6f7ff;
+  --bg-dark: #0a0a0f;
+  --bg-card: #141420;
+  --text-light: #ffffff;
+  --text-muted: #cccccc;
+
+  --neon-blue: #00d9ff;
+  --neon-pink: #ff2fd1;
+
+  --glow-blue: 0 0 15px #00d9ff;
+  --glow-pink: 0 0 15px #ff2fd1;
 }
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--text-dark);
-  background-color: var(--bg-page);
+  color: var(--text-light);
+  background-color: var(--bg-dark);
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
 /* --- HEADER --- */
-header { padding: 40px 20px; background: var(--bg-page); }
+header {
+  padding: 40px 20px;
+}
 
 .main-logo {
   width: auto;
-  height: 150px;
+  height: 160px;
   object-fit: contain;
   margin-bottom: 20px;
-}
-
-h1 {
-  margin: 10px 0;
-  font-size: 2.8em;
-  color: var(--text-dark);
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  filter: drop-shadow(var(--glow-blue)) drop-shadow(var(--glow-pink));
 }
 
 .subtitle {
   font-size: 1.3em;
   color: var(--text-muted);
   margin-bottom: 30px;
-  padding: 0 10px;
-  font-weight: 400;
 }
 
 /* --- BUTTONS --- */
@@ -65,32 +60,31 @@ h1 {
   display: inline-flex;
   align-items: center;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--glow-blue), var(--glow-pink);
 }
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .btn-whatsapp { background-color: #25D366; }
-.btn-service { background-color: var(--btn-primary); }
+.btn-service { background: linear-gradient(90deg, var(--neon-blue), var(--neon-pink)); }
 
 /* --- SERVICES SECTION --- */
 .services-section {
-  background-color: var(--highlight);
   padding: 60px 20px;
-  border-top: 2px solid var(--accent-blue);
-  border-bottom: 2px solid var(--accent-blue);
+  border-top: 2px solid var(--neon-blue);
+  border-bottom: 2px solid var(--neon-pink);
 }
 
 h2 {
-  color: var(--text-dark);
+  color: var(--text-light);
   margin-bottom: 40px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 1.8em;
   font-weight: 700;
+  text-shadow: var(--glow-blue), var(--glow-pink);
 }
 
 .service-grid {
@@ -107,18 +101,22 @@ h2 {
   background: var(--bg-card);
   padding: 30px;
   border-radius: 15px;
-  border-left: 6px solid var(--accent-blue);
-  box-shadow: -8px 8px 15px rgba(0, 191, 255, 0.2);
+  border-left: 6px solid var(--neon-blue);
+  box-shadow: var(--glow-blue);
   transition: transform 0.2s;
 }
 
-.card:hover { transform: translateY(-5px); }
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--glow-pink);
+}
 
 .card h3 {
   margin-top: 0;
-  color: var(--text-dark);
+  color: var(--neon-blue);
   font-size: 1.4em;
   font-weight: 700;
+  text-shadow: var(--glow-blue);
 }
 
 .card p {
@@ -129,40 +127,35 @@ h2 {
 .card-btn {
   display: inline-block;
   margin-top: 20px;
-  color: var(--accent-blue);
+  color: var(--neon-pink);
   font-weight: bold;
   text-decoration: none;
   border-bottom: 2px solid transparent;
   transition: 0.2s;
 }
 
-.card-btn:hover { border-bottom: 2px solid var(--accent-blue); }
+.card-btn:hover {
+  border-bottom: 2px solid var(--neon-pink);
+}
 
 /* --- FOOTER --- */
 footer {
   padding: 60px 20px;
-  background-color: var(--bg-page);
-  color: var(--text-dark);
+  color: var(--text-light);
 }
 
 .privacy-box {
   max-width: 700px;
   margin: 40px auto 10px auto;
   padding: 20px;
-  background-color: #fff;
-  border: 2px solid var(--accent-blue);
+  background-color: #11111a;
+  border: 2px solid var(--neon-blue);
   border-radius: 8px;
   font-size: 0.9em;
   color: var(--text-muted);
   text-align: justify;
   line-height: 1.5;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.privacy-box h4 {
-  margin: 0 0 10px 0;
-  color: var(--text-dark);
-  font-size: 1.1em;
+  box-shadow: var(--glow-blue);
 }
 
 .footer-text {
